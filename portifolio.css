@@ -74,6 +74,11 @@ order: 3;
 flex-grow: 0;
 margin: 0px 20px;
 
+flex: none;
+order: 4;
+flex-grow: 0;
+margin: 10px 20px;
+
 }
 
 .logo{
@@ -101,7 +106,7 @@ max-height: 100%;
 width: 200px;
 height: 0px;
 left: 60px;
-top: 0px;
+top: 10px;
 
 font-family: OCL A Std, monospace;
 font-style: normal;
@@ -112,10 +117,7 @@ letter-spacing: -0.5px;
 max-height: 100%;
 max-width: 100%;
 
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 10px 20px;
+
 
 color: #DEDEDE;
 }
