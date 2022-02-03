@@ -34,7 +34,7 @@
     height: 80px;
     /* left: calc(50% - 1440px/2); */
     top: 0px;
-    z-index: 1;
+    z-index: 2;
 
     background: rgb(50, 50, 50);
     backdrop-filter: blur(20px);
@@ -172,22 +172,15 @@ margin: 0px 20px;
 }
 
 .page-title {
-
-  /* Olá, sou o Lucas. A Product Designer based in City. */
-
-
-  position: absolute;
+position: absolute;
 width: 70%;
 height: 25%;
-left: 96px;
-top: 220px;
-
+left: 5%;
+top: 25%;
+z-index: 1;
 }
 
 .h1{
-    /* Olá, sou o Lucas Sou Desenvolvedor Web */
-
-
     position: absolute;
     left: 0%;
     right: 31.92%;
@@ -197,9 +190,9 @@ top: 220px;
     font-family: Manrope;
     font-style: normal;
     font-weight: bold;
-    font-size: 80px;
-    line-height: 84px;
-    /* or 119% */
+    font-size: 400%;
+    line-height: 119%;
+    
     
     letter-spacing: -0.5px;
     
@@ -211,9 +204,9 @@ top: 220px;
 position: absolute;
 width: 60%;
 height: 50%;
-left: 96px;
-top: 60%;
-
+left: 5%;
+top: 55%;
+z-index: 1;
 
 }
 
@@ -222,7 +215,7 @@ top: 60%;
 position: absolute;
 left: 0%;
 right: 44.05%;
-top: 125%;
+top: 120%;
 bottom: -11.98%;
 
 border: 1px solid #FFFFFF;
@@ -238,8 +231,8 @@ border: 1px solid #FFFFFF;
     font-family: Manrope;
     font-style: normal;
     font-weight: 600;
-    font-size: 35px;
-    line-height: 50px;
+    font-size: 200%;
+    line-height: 40px;
     /* or 150% */
     
     letter-spacing: -0.5px;
