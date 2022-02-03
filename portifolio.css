@@ -41,6 +41,41 @@
 
 }
 
+.autolayout{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 355px;
+height: 48px;
+left: 1085px;
+top: 16px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 20px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 20px;
+
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 20px;
+
+flex: none;
+order: 3;
+flex-grow: 0;
+margin: 0px 20px;
+
+}
+
 .logo{
     position: absolute;
 width: 20%;
@@ -62,8 +97,8 @@ max-height: 100%;
 }
 
 .myname{
-   position: absolute;
-width: 220px;
+    position: absolute;
+width: 200px;
 height: 0px;
 left: 60px;
 top: 0px;
@@ -119,10 +154,7 @@ bottom: 27.38%;
 max-height: 100%;
 max-width: 100%;
 
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 20px;
+
 
 }
 
@@ -135,10 +167,7 @@ margin: 0px 20px;
     max-height: 100%;
     max-width: 100%;
     
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px 20px; 
+   
 }
 
 .linkedin{
@@ -152,10 +181,7 @@ max-width: 100%;
 background: #959595;
 
 /* Inside auto layout */
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 0px 20px;
+
 
 }
 
@@ -171,10 +197,7 @@ max-width: 100%;
 
 
 /* Inside auto layout */
-flex: none;
-order: 2;
-flex-grow: 0;
-margin: 0px 20px;
+
 
 }
 
