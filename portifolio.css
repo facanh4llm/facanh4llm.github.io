@@ -3,14 +3,14 @@
     /* Projeto layout */
 
 
-position: absolute;
-width: 100%;
-height: 1000%;
+    position: absolute;
+    width: 100%;
+    height: 1000%;
 
-background: #202020;
-left: -720px;
-top: -2820px;
-border-radius: 0px;
+    background: #202020;
+    left: -720px;
+    top: -2820px;
+    border-radius: 0px;
 
 }
 
@@ -18,26 +18,26 @@ border-radius: 0px;
     /* Projeto layout */
 
 
-position: relative;
-width: 100%;
-height: 100%;
+    position: relative;
+    width: 100%;
+    height: 100%;
 
-background: #202020;
+    background: #202020;
 }
 
 .fixed-bar{
   /* Barra topo */
 
 
-position: fixed;
-width: 100%;
-height: 80px;
-/* left: calc(50% - 1440px/2); */
-top: 0px;
-z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    /* left: calc(50% - 1440px/2); */
+    top: 0px;
+    z-index: 1;
 
-background: rgb(50, 50, 50);
-backdrop-filter: blur(20px);
+    background: rgb(50, 50, 50);
+    backdrop-filter: blur(20px);
 
 }
 
