@@ -1,3 +1,6 @@
+@media screen and (max-width:1920px) {
+        
+
 .body {
     
     /* Projeto layout */
@@ -26,7 +29,7 @@
 }
 
 .fixed-bar{
-  /* Barra topo */
+/* Barra topo */
 
 
     position: fixed;
@@ -169,7 +172,7 @@ max-width: 100%;
     max-height: 100%;
     max-width: 100%;
     
-   
+
 }
 
 .linkedin{
@@ -243,7 +246,7 @@ z-index: 1;
 }
 
 .line{
-   
+
 position: absolute;
 left: 0%;
 
@@ -335,4 +338,6 @@ background: #202020;
     text-align: center;
     letter-spacing: -0.5px;
     color: #959595;
+}
+
 }
