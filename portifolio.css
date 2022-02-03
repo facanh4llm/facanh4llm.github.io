@@ -244,10 +244,10 @@ border: 1px solid #FFFFFF;
 
 .imagem_eu{
     position: absolute;
-width: 25%;
-height: 50%;
+    width: 400px;
+    height: 400px;
 left: 60%;
-top: 25%;
+top: 30%;
 
 }
 
