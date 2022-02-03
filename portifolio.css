@@ -3,9 +3,9 @@
     /* Projeto layout */
 
 
-position: relative;
-width: 1440px;
-height: 4345px;
+position: absolute;
+width: 100%;
+height: 1000%;
 
 background: #202020;
 left: -720px;
@@ -14,13 +14,13 @@ border-radius: 0px;
 
 }
 
-.container{
+.home{
     /* Projeto layout */
 
 
 position: relative;
-width: 1440px;
-height: 4345px;
+width: 100%;
+height: 100%;
 
 background: #202020;
 }
@@ -29,44 +29,52 @@ background: #202020;
   /* Barra topo */
 
 
-position: absolute;
-width: 1440px;
+position: fixed;
+width: 100%;
 height: 80px;
-left: calc(50% - 1440px/2);
+/* left: calc(50% - 1440px/2); */
 top: 0px;
+z-index: 1;
 
-background: rgba(50, 50, 50, 0.7);
+background: rgb(50, 50, 50);
 backdrop-filter: blur(20px);
 
 }
 
-/* download-removebg-preview 1 */
-
-
-/* position: absolute;
-width: 39px;
-height: 37px;
-left: 87px;
-top: 22px;
-
-background: url(L F.png);
-mix-blend-mode: exclusion;
-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
-
+.mylogo{
 /* Logos */
 
-/* 
+
 position: absolute;
+/* width: 138px;
+height: 27px; */
+left: 136px;
+top: 20px;
+max-width: 50%;
+max-height: 50%;
+}
+
+.myname{
+    position: absolute;
 width: 138px;
 height: 27px;
-left: 136px;
-top: 27px; */
+left: 10%;
+top: 5px;
 
-/* Icons */
+font-family: OCL A Std, monospace;
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 27px;
+letter-spacing: -0.5px;
 
+color: #DEDEDE;
+}
 
+.icone{
+    /* Icons */
 /* Auto layout */
-/* 
+
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -76,8 +84,85 @@ padding: 0px;
 position: absolute;
 width: 358px;
 height: 48px;
-left: 1031px;
-top: 20px;  */
+right: 100px;
+top: 16px;
+
+
+
+
+
+}
+
+.wpp{
+    /* Group */
+
+
+position: static;
+left: 29.02%;
+right: 64.94%;
+top: 27.38%;
+bottom: 27.38%;
+max-height: 100%;
+max-width: 100%;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 20px;
+
+}
+
+.git{
+    position: static;
+    left: 29.02%;
+    right: 64.94%;
+    top: 27.38%;
+    bottom: 27.38%;
+    max-height: 100%;
+    max-width: 100%;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 20px; 
+}
+
+.linkedin{
+    position: static;
+left: calc(50% - 10px/2 + 0.52px);
+bottom: 13px;
+max-height: 100%;
+max-width: 100%;
+
+
+background: #959595;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 20px;
+
+}
+
+.email{
+    
+position: static;
+left: 65.23%;
+right: 29.02%;
+top: 33.33%;
+bottom: 33.33%;
+max-height: 100%;
+max-width: 100%;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 20px;
+
+}
 
 .page-title {
 
@@ -85,24 +170,10 @@ top: 20px;  */
 
 
   position: absolute;
-width: 742px;
-height: 192px;
+width: 70%;
+height: 25%;
 left: 96px;
-top: 283px;
-
-}
-
-.page-subtitle {
-    /* Meu nome é Lucas Façanha e tenho 24 anos. Curso Engenharia da Computação e atuo como desenvolvedor web desde 2020. Iniciei de forma autônoma. */
-
-
-    
-position: absolute;
-width: 459px;
-height: 179px;
-left: 96px;
-top: 520px;
-
+top: 220px;
 
 }
 
@@ -119,8 +190,8 @@ top: 520px;
     font-family: Manrope;
     font-style: normal;
     font-weight: bold;
-    font-size: 54px;
-    line-height: 64px;
+    font-size: 80px;
+    line-height: 84px;
     /* or 119% */
     
     letter-spacing: -0.5px;
@@ -128,14 +199,26 @@ top: 520px;
     color: #DEDEDE;
 }
 
+.page-subtitle {
+        
+position: absolute;
+width: 60%;
+height: 50%;
+left: 96px;
+top: 60%;
+
+
+}
+
 .line{
-    position: absolute;
-    left: 6.67%;
-    right: 64.51%;
-    top: 11.46%;
-    bottom: 88.54%;
-    
-    border: 1px solid #FFFFFF;
+   
+position: absolute;
+left: 0%;
+right: 44.05%;
+top: 125%;
+bottom: -11.98%;
+
+border: 1px solid #FFFFFF;
 }
 
 .h2{
@@ -148,54 +231,73 @@ top: 520px;
     font-family: Manrope;
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 35px;
+    line-height: 50px;
     /* or 150% */
     
     letter-spacing: -0.5px;
     
     color: #959595;
 }
-/* 
- minha foto 
 
+.imagem_eu{
+    position: absolute;
+width: 500px;
+height: 500px;
+left: 1200px;
+top: 290px;
 
-position: absolute;
-width: 400px;
-height: 400px;
-left: 838px;
-top: 209px;
+}
 
-background: url(.jpg), #494949;
+.projetos{
+    position: relative;
+width: 100%;
+height: 100%;
 
-/* Projetos Pessoais  */
+background: #959595;
 
-/* 
-position: absolute;
-width: 303px;
+}
+.projects{
+    position: absolute;
+width: 100%;
 height: 49px;
-left: 568px;
-top: 745px;
+/* left: 50%; */
+top: 0px;
 
 font-family: Manrope;
 font-style: normal;
 font-weight: bold;
-font-size: 36px;
+font-size: 60px;
 line-height: 49px;
 text-align: center;
 letter-spacing: -0.5px;
 
-color: #DEDEDE;
+color: #202020;
 
-  
-  
-  
-    color: #ffffff;
-    margin: 0 0 5px;
-  }
-  
-  .page-subtitle {
-    color: #ffffff;
-    margin-top: 5px;
-  }
- 
+}
+
+.conhecimentos{
+    
+position: relative;
+width: 100%;
+height: 100%;
+
+background: #202020;
+}
+
+.conheciments{
+    position: absolute;
+    width: 100%;
+    height: 49px;
+    /* left: 50%; */
+    top: 0px;
+    
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #959595;
+}
