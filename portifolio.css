@@ -1,0 +1,201 @@
+.body {
+    
+    /* Projeto layout */
+
+
+position: relative;
+width: 1440px;
+height: 4345px;
+
+background: #202020;
+left: -720px;
+top: -2820px;
+border-radius: 0px;
+
+}
+
+.container{
+    /* Projeto layout */
+
+
+position: relative;
+width: 1440px;
+height: 4345px;
+
+background: #202020;
+}
+
+.fixed-bar{
+  /* Barra topo */
+
+
+position: absolute;
+width: 1440px;
+height: 80px;
+left: calc(50% - 1440px/2);
+top: 0px;
+
+background: rgba(50, 50, 50, 0.7);
+backdrop-filter: blur(20px);
+
+}
+
+/* download-removebg-preview 1 */
+
+
+/* position: absolute;
+width: 39px;
+height: 37px;
+left: 87px;
+top: 22px;
+
+background: url(L F.png);
+mix-blend-mode: exclusion;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+
+/* Logos */
+
+/* 
+position: absolute;
+width: 138px;
+height: 27px;
+left: 136px;
+top: 27px; */
+
+/* Icons */
+
+
+/* Auto layout */
+/* 
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 358px;
+height: 48px;
+left: 1031px;
+top: 20px;  */
+
+.page-title {
+
+  /* Olá, sou o Lucas. A Product Designer based in City. */
+
+
+  position: absolute;
+width: 742px;
+height: 192px;
+left: 96px;
+top: 283px;
+
+}
+
+.page-subtitle {
+    /* Meu nome é Lucas Façanha e tenho 24 anos. Curso Engenharia da Computação e atuo como desenvolvedor web desde 2020. Iniciei de forma autônoma. */
+
+
+    
+position: absolute;
+width: 459px;
+height: 179px;
+left: 96px;
+top: 520px;
+
+
+}
+
+.h1{
+    /* Olá, sou o Lucas Sou Desenvolvedor Web */
+
+
+    position: absolute;
+    left: 0%;
+    right: 31.92%;
+    top: 0%;
+    bottom: -33.33%;
+    
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 64px;
+    /* or 119% */
+    
+    letter-spacing: -0.5px;
+    
+    color: #DEDEDE;
+}
+
+.line{
+    position: absolute;
+    left: 6.67%;
+    right: 64.51%;
+    top: 11.46%;
+    bottom: 88.54%;
+    
+    border: 1px solid #FFFFFF;
+}
+
+.h2{
+    position: absolute;
+    left: 0%;
+    right: 41.94%;
+    top: 0%;
+    bottom: -33.52%;
+    
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 150% */
+    
+    letter-spacing: -0.5px;
+    
+    color: #959595;
+}
+/* 
+ minha foto 
+
+
+position: absolute;
+width: 400px;
+height: 400px;
+left: 838px;
+top: 209px;
+
+background: url(.jpg), #494949;
+
+/* Projetos Pessoais  */
+
+/* 
+position: absolute;
+width: 303px;
+height: 49px;
+left: 568px;
+top: 745px;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 49px;
+text-align: center;
+letter-spacing: -0.5px;
+
+color: #DEDEDE;
+
+  
+  
+  
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+ 
