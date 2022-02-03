@@ -8,8 +8,8 @@
     height: 1000%;
 
     background: #202020;
-    left: -720px;
-    top: -2820px;
+    left: 100%;
+    top: 0px;
     border-radius: 0px;
 
 }
@@ -48,7 +48,7 @@
 position: absolute;
 /* width: 138px;
 height: 27px; */
-left: 136px;
+left: 7%;
 top: 20px;
 max-width: 50%;
 max-height: 50%;
