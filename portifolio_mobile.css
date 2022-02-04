@@ -1,0 +1,460 @@
+@media only screen and (min-width: 400px) {
+    .mobile{ display: inline !important; }
+        }
+            
+.body {
+    
+    /* Projeto layout */
+
+    
+    position: relative;
+    width: 100%;
+    height: 8772px;
+    
+    background: #202020;
+
+}
+
+.home{
+    /* Projeto layout */
+
+
+    position: relative;
+    width: 100%;
+    height: 715px;
+
+    background: #202020;
+}
+.topbar{
+    position: fixed;
+width: 446px;
+height: 72px;
+left: 0px;
+top: 0px;
+
+}
+
+.fixed-bar{
+
+    position: fixed;
+    width: 446px;
+    height: 72px;
+    left: calc(50% - 446px/2);
+    top: 0px;
+    
+    background: rgba(50, 50, 50, 0.7);
+    backdrop-filter: blur(20px);
+z-index: 2;
+
+
+}
+
+.autolayout{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+position: absolute;
+width: 355px;
+height: 48px;
+left: 1085px;
+top: 16px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 20px;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 20px;
+
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 0px 20px;
+
+flex: none;
+order: 3;
+flex-grow: 0;
+margin: 0px 20px;
+
+flex: none;
+order: 4;
+flex-grow: 0;
+margin: 10px 20px;
+
+}
+
+.logo{
+
+    
+position: absolute;
+width: 146.51px;
+height: 40.85px;
+left: 25.86px;
+top: 0px;
+
+    
+}
+
+.mylogo{
+/* Logos */
+
+
+position: absolute;
+width: 31.24px;
+height: 40.85px;
+left: 25.86px;
+top: 16px;
+
+}
+
+.myname{
+    position: absolute;
+    width: 103.42px;
+    height: 27px;
+    left: 50%;
+    top: 10px;
+    
+    font-family: Marker Felt, fantasy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.5px;
+    
+    color: #DEDEDE;
+
+}
+
+.icone{
+    
+
+    position: absolute;
+    left: 89.13%;
+    right: 5.8%;
+    top: 0.39%;
+    bottom: 99.39%;
+
+
+}
+
+.a{
+    position: absolute;
+width: 22.62px;
+height: 16px;
+left: calc(50% - 22.62px/2 + 185.83px);
+top: 28px;
+
+border: 2px solid #FFFFFF;
+}
+
+.wpp{
+    
+
+
+position: static;
+left: 29.02%;
+right: 64.94%;
+top: 27.38%;
+bottom: 27.38%;
+max-height: 100%;
+max-width: 100%;
+
+
+
+}
+
+.git{
+    position: static;
+    left: 29.02%;
+    right: 64.94%;
+    top: 27.38%;
+    bottom: 27.38%;
+    max-height: 100%;
+    max-width: 100%;
+    
+
+}
+
+.linkedin{
+    position: static;
+left: calc(50% - 10px/2 + 0.52px);
+bottom: 13px;
+max-height: 100%;
+max-width: 100%;
+
+
+background: #959595;
+
+
+
+
+}
+
+.email{
+    
+position: static;
+left: 65.23%;
+right: 29.02%;
+top: 33.33%;
+bottom: 33.33%;
+max-height: 90%;
+max-width: 90%;
+
+
+
+
+
+}
+
+/* .page-title {
+position: absolute;
+width: 60%;
+height: 10%;
+left: 10%;
+top: 35%;
+z-index: 1;
+} */
+
+.h1{
+    position: absolute;
+    width: 366px;
+    height: 120px;
+    left: 24px;
+    top: 320px;
+    
+    font-family: Courier, monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    /* or 111% */
+    
+    text-align: center;
+    letter-spacing: -0.5px;
+    
+    color: #DEDEDE;
+}
+
+/* .page-subtitle {
+        
+position: absolute;
+width: 60%;
+height: 20%;
+left: 10%;
+top: 55%;
+z-index: 1;
+
+} */
+
+.line{
+
+position: absolute;
+left: 10%;
+
+
+right: 10%;
+top: 420px;
+
+
+border: 1px solid #FFFFFF;
+}
+
+.h2{
+
+    position: absolute;
+    width: 366px;
+    height: 112px;
+    left: 24px;
+    top: 450px;
+    
+    font-family: Courier, monospace;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 28px;
+    /* or 140% */
+    
+    text-align: center;
+    letter-spacing: -0.5px;
+    
+    color: #959595;
+}
+
+.autolayout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    
+    position: absolute;
+    width: 141px;
+    height: 41px;
+    left: 136px;
+    top: 865px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+}
+
+.imagem_eu{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 27%;
+    top: 100px;    
+    
+}
+
+.projetos{
+    position: relative;
+    width: 100%;
+    height: 715px;
+    top: 0px;
+
+    background: #DEDEDE;
+    
+    
+    
+}
+
+.projects{
+    position: absolute;
+    width: 100%;
+    height: 49px;
+    /* left: 50%; */
+    top: 0px;
+    
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    
+    
+    
+    color: #202020;
+
+}
+
+.plim{
+    position: absolute;
+    width: 160px;
+    height: 230px;
+    left: 21px;
+    top: 966px;
+
+}
+
+.ise{
+    position: absolute;
+    width: 160px;
+    height: 230px;
+    left: 230px;
+    top: 966px;
+}
+
+.facanha{
+    position: absolute;
+width: 160px;
+height: 230px;
+left: 230px;
+top: 966px;
+}
+
+.conhecimentos{
+    
+position: relative;
+width: 100%;
+height: 500px;
+
+background: #202020;
+}
+
+.conheciments{
+    position: absolute;
+    width: 100%;
+    height: 49px;
+    /* left: 50%; */
+    top: 20px;
+    
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 49px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #959595;
+}
+
+.programing1{
+    position: absolute;
+    width: 20%;
+    height: 15%;
+    
+left: 10%;
+top: 20%;
+}
+
+.programing2{
+    position: absolute;
+    width: 20%;
+    height: 15%;
+    
+left: 40%;
+top: 20%;
+}
+
+.programing3{
+    position: absolute;
+    width: 20%;
+    height: 15%;
+    
+left: 70%;
+top: 20%;
+}
+
+.endbar{
+    position: absolute;
+width: 75%;
+height: 1px;
+left: 15%;
+bottom: 77px;
+
+background: #696969;
+}
+
+.assign{
+    position: absolute;
+width: 40%;
+height: 36px;
+left: 27%;
+bottom: 0px;
+text-align: center;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: 600;
+font-size: 10px;
+line-height: 36px;
+
+
+letter-spacing: -0.5px;
+
+color: #696969;
+}
+
+
+
+
