@@ -327,23 +327,38 @@ color: #202020;
 
 }
 
+
 .plim{
     position: absolute;
     width: 35%;
     height: 35%;
     
 left: 25%;
-top: 10%;
+top: 150px;
+transition: transform 1s;
+transform: translateX(0) scale(1);
 
 }
-
+.plim:hover,
+.plim:focus {
+  
+  transform: translateX(10px) scale(1.2)
+}
 .ise{
     position: absolute;
     width: 30%;
     height: 40%;
     
 left: 20%;
-top: 50%;
+top: 560px;
+
+transition: transform 1s;
+transform: translateX(0) scale(1);
+}
+.ise:hover,
+.ise:focus {
+  
+  transform: translateX(10px) scale(1.2)
 }
 
 .facanha{
@@ -353,6 +368,13 @@ top: 50%;
     
 left: 65%;
 top: 100px;
+transition: transform 1s;
+transform: translateX(0) scale(1);
+}
+.facanha:hover,
+.facanha:focus {
+  
+  transform: translateX(10px) scale(1.2)
 }
 
 .conhecimentos{
