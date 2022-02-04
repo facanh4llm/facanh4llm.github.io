@@ -23,7 +23,7 @@
 
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 720px;
 
     background: #202020;
 }
@@ -111,9 +111,9 @@ height: 0px;
 left: 60px;
 top: 10px;
 
-font-family: OCL A Std, monospace;
+font-family: Marker Felt, fantasy;
 font-style: normal;
-font-weight: 800;
+font-weight: normal;
 font-size: 20px;
 line-height: 10px;
 letter-spacing: -0.5px;
@@ -216,7 +216,7 @@ max-width: 90%;
 position: absolute;
 width: 60%;
 height: 10%;
-left: 5%;
+left: 10%;
 top: 35%;
 z-index: 1;
 }
@@ -228,7 +228,7 @@ z-index: 1;
     top: 0%;
     bottom: -33.33%;
     
-    font-family: Manrope;
+    font-family: Courier, monospace;
     font-style: normal;
     font-weight: bold;
     font-size: 600%;
@@ -245,7 +245,7 @@ z-index: 1;
 position: absolute;
 width: 60%;
 height: 20%;
-left: 5%;
+left: 10%;
 top: 55%;
 z-index: 1;
 
@@ -271,7 +271,7 @@ border: 1px solid #FFFFFF;
     top: 0%;
     bottom: -33.52%;
     
-    font-family: Manrope;
+    font-family: Courier, monospace;
     font-style: normal;
     font-weight: 600;
     font-size: 50%;
@@ -295,7 +295,7 @@ top: 30%;
 .projetos{
     position: relative;
 width: 100%;
-height: 200%;
+height:  1080px;
 
 background: #959595;
 
@@ -322,29 +322,29 @@ color: #202020;
 
 .plim{
     position: absolute;
-    width: 40%;
-    height: 25%;
+    width: 35%;
+    height: 35%;
     
-left: 15%;
-top: 5%;
+left: 25%;
+top: 10%;
 
 }
 
 .ise{
     position: absolute;
-    width: 40%;
-    height: 25%;
+    width: 30%;
+    height: 40%;
     
-left: 15%;
-top: 32%;
+left: 20%;
+top: 50%;
 }
 
 .facanha{
     position: absolute;
-    width: 30%;
-    height: 50%;
+    width: 25%;
+    height: 80%;
     
-left: 60%;
+left: 65%;
 top: 100px;
 }
 
@@ -352,7 +352,7 @@ top: 100px;
     
 position: relative;
 width: 100%;
-height: 100%;
+height: 1080px;
 
 background: #202020;
 }
@@ -374,5 +374,33 @@ background: #202020;
     color: #959595;
 }
 
+.endbar{
+    position: absolute;
+width: 75%;
+height: 1px;
+left: 15%;
+bottom: 77px;
 
+background: #696969;
+}
+
+.assign{
+    position: absolute;
+width: 20%;
+height: 36px;
+left: 5%;
+bottom: 0px;
+text-align: center;
+
+font-family: Manrope;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 36px;
+/* identical to box height, or 225% */
+
+letter-spacing: -0.5px;
+
+color: #696969;
+}
 }
