@@ -317,10 +317,11 @@ border: 1px solid #FFFFFF;
 .projetos{
     position: relative;
     width: 100%;
-    height: 715px;
+    height: 1200px;
     top: 0px;
 
-    background: #DEDEDE;
+background: #959595;
+
     
     
     
@@ -349,34 +350,34 @@ border: 1px solid #FFFFFF;
 
 .plim{
     position: absolute;
-    width: 160px;
-    height: 230px;
-    left: 21px;
-    top: 966px;
+    width: 75%;
+    height: 200px;
+    left: 5%;
+    top: 100px;
 
 }
 
 .ise{
     position: absolute;
-    width: 160px;
-    height: 230px;
-    left: 230px;
-    top: 966px;
+    width: 70%;
+    height: 200px;
+    left: 25%;
+    top: 300px;
 }
 
 .facanha{
     position: absolute;
-width: 160px;
-height: 230px;
-left: 230px;
-top: 966px;
+width: 70%;
+height: 600px;
+left: 15%;
+top: 500px;
 }
 
 .conhecimentos{
     
 position: relative;
 width: 100%;
-height: 500px;
+height: 300px;
 
 background: #202020;
 }
@@ -401,35 +402,35 @@ background: #202020;
 .programing1{
     position: absolute;
     width: 20%;
-    height: 15%;
+    height: 100px;
     
 left: 10%;
-top: 20%;
+top: 80px;
 }
 
 .programing2{
     position: absolute;
     width: 20%;
-    height: 15%;
+    height: 100px;
     
 left: 40%;
-top: 20%;
+top: 80px;
 }
 
 .programing3{
     position: absolute;
     width: 20%;
-    height: 15%;
+    height: 100px;
     
 left: 70%;
-top: 20%;
+top: 80px;
 }
 
 .endbar{
     position: absolute;
 width: 75%;
 height: 1px;
-left: 15%;
+left: 12%;
 bottom: 77px;
 
 background: #696969;
@@ -440,7 +441,7 @@ background: #696969;
 width: 40%;
 height: 36px;
 left: 27%;
-bottom: 0px;
+bottom: 10px;
 text-align: center;
 
 font-family: Manrope;
