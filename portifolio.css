@@ -320,8 +320,17 @@ color: #202020;
     height: 25%;
     
 left: 15%;
-top: 100px;
+top: 5%;
 
+}
+
+.ise{
+    position: absolute;
+    width: 40%;
+    height: 25%;
+    
+left: 15%;
+top: 32%;
 }
 
 .facanha{
