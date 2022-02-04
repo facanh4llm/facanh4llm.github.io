@@ -1,4 +1,4 @@
-@media screen and (max-width:1920px) {
+@media screen {
         
 
 .body {
@@ -35,7 +35,7 @@
     position: fixed;
     width: 100%;
     height: 80px;
-    /* left: calc(50% - 1440px/2); */
+    
     top: 0px;
     z-index: 2;
 
@@ -289,7 +289,7 @@ top: 30%;
 .projetos{
     position: relative;
 width: 100%;
-height: 100%;
+height: 200%;
 
 background: #959595;
 
@@ -312,6 +312,25 @@ letter-spacing: -0.5px;
 
 color: #202020;
 
+}
+
+.plim{
+    position: absolute;
+    width: 40%;
+    height: 25%;
+    
+left: 15%;
+top: 100px;
+
+}
+
+.facanha{
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    
+left: 60%;
+top: 100px;
 }
 
 .conhecimentos{
@@ -339,5 +358,6 @@ background: #202020;
     letter-spacing: -0.5px;
     color: #959595;
 }
+
 
 }
