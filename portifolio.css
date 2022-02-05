@@ -49,7 +49,7 @@
         top: 0px;
         z-index: 2;
     
-        background: rgb(50, 50, 50);
+        background: rgba(50, 50, 50, 0.7);
         backdrop-filter: blur(20px);
     
     }
