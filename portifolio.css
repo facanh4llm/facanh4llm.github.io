@@ -1,12 +1,4 @@
 @media only screen and (max-width: 400px) {
-.desktop{ display: none !important; }
-}
-
-@media only screen and (min-width: 500px) {
-.desktop-hide{ display: none !important; }
-} 
-
-@media only screen and (max-width: 400px) {
     .desktop{ display: none !important; }
     }
     
@@ -319,11 +311,11 @@
     
     .plim{
         position: absolute;
-        width: 35%;
-        height: 35%;
+        width: 600px;
+        height: 400px;
         
     left: 25%;
-    top: 150px;
+    top: 120px;
     transition: transform 1s;
     transform: translateX(0) scale(1);
     
@@ -335,11 +327,11 @@
     }
     .ise{
         position: absolute;
-        width: 30%;
-        height: 40%;
+        width: 650px;
+        height: 450px;
         
-    left: 20%;
-    top: 560px;
+    left: 10%;
+    top: 570px;
     
     transition: transform 1s;
     transform: translateX(0) scale(1);
@@ -352,8 +344,8 @@
     
     .facanha{
         position: absolute;
-        width: 25%;
-        height: 80%;
+        width: 450px;
+        height: 800px;
         
     left: 65%;
     top: 100px;
@@ -449,465 +441,15 @@
     color: #696969;
     }
     
+/*  
+                /
+               /   ______
+              /   /
+             /__ /___
+                /
+               /
+*/
     
     
     
     
-    
-.body {
-    
-    /* Projeto layout */
-
-
-    position: absolute;
-    width: 100%;
-    height: 1000%;
-
-    background: #202020;
-    left: 100%;
-    top: 0px;
-    border-radius: 0px;
-    min-width: 700px;
-
-}
-
-.home{
-    /* Projeto layout */
-
-
-    position: relative;
-    width: 100%;
-    height: 800px;
-
-    background: #202020;
-}
-
-.fixed-bar{
-/* Barra topo */
-
-
-    position: fixed;
-    width: 100%;
-    height: 80px;
-    
-    top: 0px;
-    z-index: 2;
-
-    background: rgb(50, 50, 50);
-    backdrop-filter: blur(20px);
-
-}
-
-.autolayout{
-    display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px;
-
-position: absolute;
-width: 355px;
-height: 48px;
-left: 1085px;
-top: 16px;
-
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 20px;
-
-flex: none;
-order: 1;
-flex-grow: 0;
-margin: 0px 20px;
-
-flex: none;
-order: 2;
-flex-grow: 0;
-margin: 0px 20px;
-
-flex: none;
-order: 3;
-flex-grow: 0;
-margin: 0px 20px;
-
-flex: none;
-order: 4;
-flex-grow: 0;
-margin: 10px 20px;
-
-}
-
-.logo{
-    position: absolute;
-width: 20%;
-height: 37px;
-left: 7%;
-top: 22px;
-}
-
-.mylogo{
-/* Logos */
-
-
-position: absolute;
-
-left: 5px;
-top: 0px;
-max-width: 100%;
-max-height: 100%;
-}
-
-.myname{
-    position: absolute;
-width: 200px;
-height: 0px;
-left: 60px;
-top: 10px;
-
-font-family: Marker Felt, fantasy;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 10px;
-letter-spacing: -0.5px;
-max-height: 100%;
-max-width: 100%;
-
-
-
-color: #DEDEDE;
-}
-
-.icone{
-    /* Icons */
-/* Auto layout */
-
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 0px;
-
-position: absolute;
-width: 358px;
-height: 48px;
-right: 100px;
-top: 16px;
-
-
-
-
-
-}
-
-.a{
-    left: 500px;
-    right: 0px;
-    height: 0px;
-    width: 0px;
-}
-.wpp{
-    /* Group */
-
-
-position: static;
-left: 29.02%;
-right: 64.94%;
-top: 27.38%;
-bottom: 27.38%;
-max-height: 100%;
-max-width: 100%;
-
-
-
-}
-
-.git{
-    position: static;
-    left: 29.02%;
-    right: 64.94%;
-    top: 27.38%;
-    bottom: 27.38%;
-    max-height: 100%;
-    max-width: 100%;
-    
-
-}
-
-.linkedin{
-    position: static;
-left: calc(50% - 10px/2 + 0.52px);
-bottom: 13px;
-max-height: 100%;
-max-width: 100%;
-
-
-background: #959595;
-
-/* Inside auto layout */
-
-
-}
-
-.email{
-    
-position: static;
-left: 65.23%;
-right: 29.02%;
-top: 33.33%;
-bottom: 33.33%;
-max-height: 90%;
-max-width: 90%;
-
-
-/* Inside auto layout */
-
-
-}
-
-.page-title {
-position: absolute;
-width: 60%;
-height: 100px;
-left: 10%;
-top: 250px;
-z-index: 1;
-}
-
-.h1{
-    position: absolute;
-    left: 0%;
-    right: 31.92%;
-    top: 0%;
-    bottom: -33.33%;
-    
-    font-family: Courier, monospace;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 600%;
-    line-height: 119%;
-    
-    
-    letter-spacing: -0.5px;
-    
-    color: #DEDEDE;
-}
-
-.page-subtitle {
-        
-position: absolute;
-width: 60%;
-height: 200px;
-left: 10%;
-top: 450px;
-z-index: 1;
-
-}
-
-.line{
-
-position: absolute;
-left: 0%;
-
-
-right: 44.05%;
-top: 150%;
-bottom: -11.98%;
-
-border: 1px solid #FFFFFF;
-}
-
-.h2{
-    position: absolute;
-    left: 0%;
-    right: 41.94%;
-    top: 0%;
-    bottom: -33.52%;
-    
-    font-family: Courier, monospace;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 50%;
-    line-height: 40px;
-    /* or 150% */
-    
-    letter-spacing: -0.5px;
-    
-    color: #959595;
-}
-
-.imagem_eu{
-    position: absolute;
-    width: 400px;
-    height: 400px;
-left: 60%;
-top: 250px;
-
-}
-
-.projetos{
-    position: relative;
-width: 100%;
-height:  1080px;
-
-background: #959595;
-
-}
-
-.projects{
-    position: absolute;
-width: 100%;
-height: 49px;
-/* left: 50%; */
-top: 20px;
-
-font-family: Manrope;
-font-style: normal;
-font-weight: bold;
-font-size: 60px;
-line-height: 49px;
-text-align: center;
-letter-spacing: -0.5px;
-
-color: #202020;
-
-}
-
-
-.plim{
-    position: absolute;
-    width: 35%;
-    height: 35%;
-    
-left: 25%;
-top: 150px;
-transition: transform 1s;
-transform: translateX(0) scale(1);
-
-}
-.plim:hover,
-.plim:focus {
-  
-  transform: translateX(10px) scale(1.2)
-}
-.ise{
-    position: absolute;
-    width: 30%;
-    height: 40%;
-    
-left: 20%;
-top: 560px;
-
-transition: transform 1s;
-transform: translateX(0) scale(1);
-}
-.ise:hover,
-.ise:focus {
-  
-  transform: translateX(10px) scale(1.2)
-}
-
-.facanha{
-    position: absolute;
-    width: 25%;
-    height: 80%;
-    
-left: 65%;
-top: 100px;
-transition: transform 1s;
-transform: translateX(0) scale(1);
-}
-.facanha:hover,
-.facanha:focus {
-  
-  transform: translateX(10px) scale(1.2)
-}
-
-.conhecimentos{
-    
-position: relative;
-width: 100%;
-height: 500px;
-
-background: #202020;
-}
-
-.conheciments{
-    position: absolute;
-    width: 100%;
-    height: 49px;
-    /* left: 50%; */
-    top: 20px;
-    
-    font-family: Manrope;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 60px;
-    line-height: 49px;
-    text-align: center;
-    letter-spacing: -0.5px;
-    color: #959595;
-}
-
-.programing1{
-    position: absolute;
-    width: 20%;
-    height: 60%;
-    
-left: 10%;
-top: 20%;
-}
-
-.programing2{
-    position: absolute;
-    width: 20%;
-    height: 60%;
-    
-left: 40%;
-top: 20%;
-}
-
-.programing3{
-    position: absolute;
-    width: 20%;
-    height: 60%;
-    
-left: 70%;
-top: 20%;
-}
-
-.endbar{
-    position: absolute;
-width: 75%;
-height: 1px;
-left: 15%;
-bottom: 77px;
-
-background: #696969;
-}
-
-.assign{
-    position: absolute;
-width: 20%;
-height: 36px;
-left: 5%;
-bottom: 0px;
-text-align: center;
-
-font-family: Manrope;
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 36px;
-/* identical to box height, or 225% */
-
-letter-spacing: -0.5px;
-
-color: #696969;
-}
-
-
-
-
-
