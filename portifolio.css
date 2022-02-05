@@ -314,7 +314,7 @@
         width: 600px;
         height: 400px;
         
-    left: 25%;
+    left: 15%;
     top: 120px;
     transition: transform 1s;
     transform: translateX(0) scale(1);
@@ -348,7 +348,7 @@
         height: 800px;
         
     left: 65%;
-    top: 100px;
+    top: 150px;
     transition: transform 1s;
     transform: translateX(0) scale(1);
     }
